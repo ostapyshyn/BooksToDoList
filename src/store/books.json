@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "isRead": false,
+    "title": "Harry Potter"
+  },
+  {
+    "id": 2,
+    "isRead": true,
+    "title": "Don Quixote"
+  },
+  {
+    "id": 3,
+    "isRead": false,
+    "title": "The Catcher in the Rye"
+  },
+  {
+    "id": 4,
+    "isRead": true,
+    "title": "Nineteen Eighty Four"
+  },
+  {
+    "id": 5,
+    "isRead": false,
+    "title": "To Kill a Mockingbird"
+  }
+]
