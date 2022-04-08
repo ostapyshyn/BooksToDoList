@@ -1,0 +1,15 @@
+.books-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.center {
+  text-align: center;
+}

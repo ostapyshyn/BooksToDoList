@@ -1,0 +1,33 @@
+.book-wrapper {
+  width: 100%;
+  height: 60px;
+  padding: 15px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-count {
+  font-weight: bold;
+}
+
+.book-title {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.book-title.isRead {
+  text-decoration: line-through;
+  color: red;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
