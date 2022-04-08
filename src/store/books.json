@@ -2,26 +2,31 @@
   {
     "id": 1,
     "isRead": false,
-    "title": "Harry Potter"
+    "title": "Harry Potter",
+    "description": "The novels chronicle the lives of a young wizard, Harry Potter."
   },
   {
     "id": 2,
     "isRead": true,
-    "title": "Don Quixote"
+    "title": "Don Quixote",
+    "description": "The plot revolves around the adventures of a member of the lowest nobility."
   },
   {
     "id": 3,
     "isRead": false,
-    "title": "The Catcher in the Rye"
+    "title": "The Catcher in the Rye",
+    "description": "Holden Caulfield, a depressed 17-year-old, lives in an unspecified institution in California after the end of World War II."
   },
   {
     "id": 4,
     "isRead": true,
-    "title": "Nineteen Eighty Four"
+    "title": "Nineteen Eighty Four",
+    "description": "The story takes place in an imagined future, the year 1984, when much of the world has fallen victim to perpetual war."
   },
   {
     "id": 5,
     "isRead": false,
-    "title": "To Kill a Mockingbird"
+    "title": "To Kill a Mockingbird",
+    "description": "The story, told by the six-year-old Jean Louise Finch, takes place during three years (1933–35) of the Great Depression in the fictional town of Maycomb."
   }
 ]

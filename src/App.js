@@ -24,7 +24,7 @@ function App() {
   const statisticsData = {
     all: bookList.length,
     readBooks: bookList.filter((book) => book.isRead).length,
-    notReadBoks: bookList.filter((book) => !book.isRead).length,
+    notReadBooks: bookList.filter((book) => !book.isRead).length,
   };
 
   const removeAll = () => {

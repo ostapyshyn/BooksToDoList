@@ -1,6 +1,6 @@
 .book-wrapper {
   width: 100%;
-  height: 60px;
+  height: 160px;
   padding: 15px 10px;
   border: 1px solid #000;
   border-radius: 5px;
@@ -30,4 +30,9 @@
 
 .pointer {
   cursor: pointer;
+}
+
+.info-book {
+  width: 100%;
+  margin-left: 50px;
 }

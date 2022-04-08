@@ -6,7 +6,11 @@ export const Book = ({ count, item, onRemoveBook, onReadBook }) => {
   return (
     <li className='book-wrapper'>
       <span className='book-count'>{count}</span>
-      <span className={titleStyle}>{item.title}</span>
+      <div className='info-book'>
+        <span className={titleStyle}>{item.title}</span>
+        <p>{item.description}</p>
+      </div>
+
       <span className='row'>
         <span className='pointer' onClick={() => onRemoveBook(item.id)}>
           🗑️
