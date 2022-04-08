@@ -1,12 +1,18 @@
 .book-wrapper {
-  width: 100%;
-  height: 160px;
   padding: 15px 10px;
   border: 1px solid #000;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(255, 118, 20, 1) 0%, rgba(255, 84, 17, 1) 100%);
+
+  width: 90%;
+}
+
+.complete {
+  opacity: 0.4;
 }
 
 .book-count {
@@ -20,7 +26,7 @@
 
 .book-title.isRead {
   text-decoration: line-through;
-  color: red;
+  color: gray;
 }
 
 .row {
@@ -35,4 +41,23 @@
 .info-book {
   width: 100%;
   margin-left: 50px;
+}
+
+.icons {
+  margin-right: 5px;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.book-wrapper:nth-child(4n + 1) {
+  background: linear-gradient(90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100%);
+}
+
+.book-wrapper:nth-child(4n + 2) {
+  background: linear-gradient(90deg, rgba(255, 12, 241, 1) 0%, rgba(250, 0, 135, 1) 100%);
+}
+
+.book-wrapper:nth-child(4n + 3) {
+  background: linear-gradient(90deg, rgba(20, 159, 255, 1) 0%, rgba(17, 122, 255, 1) 100%);
 }

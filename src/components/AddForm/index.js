@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './style.css';
 
 export const AddForm = ({ onAddNewBook }) => {
@@ -7,9 +7,11 @@ export const AddForm = ({ onAddNewBook }) => {
     description: '',
     title: '',
   });
-
+  const inputRef = useRef(null);
   const isTextInput = book.title.length && book.description.length;
-
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
   return (
     <form
       className='book-form'
@@ -32,6 +34,7 @@ export const AddForm = ({ onAddNewBook }) => {
           placeholder='Title of the book'
           value={book.title}
           onChange={(e) => setBook((prev) => ({ ...prev, title: e.target.value }))}
+          ref={inputRef}
         />
 
         <input
